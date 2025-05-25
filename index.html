@@ -4,39 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eray Kıyıcı</title>
-</head>
-<body style="background-color: black;">
-    <h3 style="color: rgb(163,163,148,255);text-align: center; margin-top: 160px;font-size: 28px;">Eray Kıyıcı</h3>
-    <br>
-    <p style="text-align: center; margin-bottom:0px ;color: antiquewhite;">i want to be a</p>
-    <h6 style="color: antiquewhite; text-align: center; font-size: 96px; margin-top: 5px; line-height: 0.8;">Frontend <br >Developer</h6>
-    <p style="color: rgb(163,163,148,255); text-align: center; font-size: 28px; margin-top: -170px;">İlk Web Sitemi Oluşturmayı Deniyorum</p>
+    <style>
 
-    <br><br>
+body{background-color: black;}
+h3.name {color: rgb(163,163,148,255);text-align: center; margin-top: 160px;font-size: 28px;}
+h6{color: antiquewhite; text-align: center; font-size: 96px; margin-top: 5px; line-height: 0.8}
+
+h3.skill { color: white; margin-left: 100px; font-family: system-ui; }
+.mb-middle {margin-bottom: 40px;}
+.mb-small { margin-bottom: 20px;}
+.text-white { color: white; }
+
+.title span { display: block;}
+    </style>
+</head>
+<body>
+    
+    <h3 class="name">Eray Kıyıcı</h3>
+    <h6 class="title">
+        <span>Frontend</span> 
+        <span>Developer</span>
+    </h6>
+    <p>İlk Web Sitemi Oluşturmayı Deniyorum</p>
     
 <!--Deneyim-->
-<div style="display:flex; justify-content: center; margin-bottom: 40px;">
-    <h3 style="color:white; margin-left: 100px; font-family: system-ui;">Deneyim</h3>
-    <div style="display: flex; align-items: center ;gap: 20px;">
-    <a href="https://www.extenship.com">
-        <img src="images/extenship.png" alt="Extenship" width="85px" >
-    </a>
-    <div style="margin-left: 20px; color: white">
-        <dt style="font-weight: bold;">Extenship</dt>
-        <dd>Technical Support Specialist</dd>
+<div class="mb-middle">
+    
+    <h3 class="skill">Deneyim</h3>
+    <div style="display: flex;">
+        <a href="https://www.extenship.com">
+            <img src="images/extenship.png" alt="Extenship" width="85px" >
+        </a>
+
+        <div class="mb-small text-white">
+            <p><strong>Extenship</strong></p>
+            <p>Technical Support Specialist</p>
+        </div>
     </div>
+    
+</div>
 
 <!--Eğitim-->
-<div style="display: flex; justify-content: center;">
- </div>
-    <div style="margin-left: 100px; margin-bottom: 40px;">
-    <h3 style="color:white;font-family: system-ui;">Eğitim</h3>
-    <div style="display:flex;align-items: center;gap: 20px;">
+
+    <h3 class="skill">Eğitim</h3>
+    <div style="display: flex; align-items: center; gap: 20px;">
     <a href="https://ankuzef.ankara.edu.tr/">
         <img src="images/ankarauni.png" alt="Ankara Üniversitesi" width="85px">
     </a>
     <div style="color: white">
         <dt style="font-weight: bold;">Ankara Üniversitesi</dt>
         <dd>E-Ticaret ve Yönetimi</dd>
-
+<body>
 </html>
